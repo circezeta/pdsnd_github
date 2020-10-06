@@ -180,7 +180,7 @@ def user_stats(df):
         print('Most Recent Year of Birth:', df['Birth Year'].max())
         print('Most Common Year of Birth:', df['Birth Year'].value_counts().index[0])
     except:
-        print('No birth year')
+        print('No birth year found within the selected data set')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
