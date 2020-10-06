@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+06.10.2020
 
 ### Project Title
-Replace the Project Title
+Udacitty Nanodegree Project
 
 ### Description
-Describe what your project is about and what it does
+This project is created as part of project #3
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+.
 
