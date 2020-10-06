@@ -170,7 +170,7 @@ def user_stats(df):
     try:
         print(df['Gender'].value_counts())
     except:
-        print('No gender information')
+        print('No gender information found within the selected data set')
     
 
 
