@@ -161,7 +161,7 @@ def user_stats(df):
     try:
         print(df['Gender'].value_counts())
     except:
-        print('No gender information')
+        print('No gender information found within the selected data set')
     
 
 
@@ -170,7 +170,7 @@ def user_stats(df):
         print('Most Recent Year of Birth:', df['Birth Year'].max())
         print('Most Common Year of Birth:', df['Birth Year'].value_counts().index[0])
     except:
-        print('No birth year')
+        print('No birth year found within the selected data set')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -192,4 +192,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print('Welcome to Udacity Nanodegree program bikeshare data analysis application!')
 	main()
